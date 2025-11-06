@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Step2PersonTable } from './step2-person-table';
+import { Step5EventBind } from './step5-event-bind';
 
-describe('Step2PersonTable', () => {
-  let component: Step2PersonTable;
-  let fixture: ComponentFixture<Step2PersonTable>;
+describe('Step5EventBind', () => {
+  let component: Step5EventBind;
+  let fixture: ComponentFixture<Step5EventBind>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Step2PersonTable]
+      imports: [Step5EventBind]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Step2PersonTable);
+    fixture = TestBed.createComponent(Step5EventBind);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

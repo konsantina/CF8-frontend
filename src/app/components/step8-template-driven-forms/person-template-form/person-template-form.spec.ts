@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Step2PersonTable } from './step2-person-table';
+import { PersonTemplateForm } from './person-template-form';
 
-describe('Step2PersonTable', () => {
-  let component: Step2PersonTable;
-  let fixture: ComponentFixture<Step2PersonTable>;
+describe('PersonTemplateForm', () => {
+  let component: PersonTemplateForm;
+  let fixture: ComponentFixture<PersonTemplateForm>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Step2PersonTable]
+      imports: [PersonTemplateForm]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Step2PersonTable);
+    fixture = TestBed.createComponent(PersonTemplateForm);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

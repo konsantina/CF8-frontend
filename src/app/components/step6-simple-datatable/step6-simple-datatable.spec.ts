@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Step2PersonTable } from './step2-person-table';
+import { Step6SimpleDatatable } from './step6-simple-datatable';
 
-describe('Step2PersonTable', () => {
-  let component: Step2PersonTable;
-  let fixture: ComponentFixture<Step2PersonTable>;
+describe('Step6SimpleDatatable', () => {
+  let component: Step6SimpleDatatable;
+  let fixture: ComponentFixture<Step6SimpleDatatable>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Step2PersonTable]
+      imports: [Step6SimpleDatatable]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Step2PersonTable);
+    fixture = TestBed.createComponent(Step6SimpleDatatable);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

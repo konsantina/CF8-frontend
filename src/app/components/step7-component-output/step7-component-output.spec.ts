@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Step2PersonTable } from './step2-person-table';
+import { Step7ComponentOutput } from './step7-component-output';
 
-describe('Step2PersonTable', () => {
-  let component: Step2PersonTable;
-  let fixture: ComponentFixture<Step2PersonTable>;
+describe('Step7ComponentOutput', () => {
+  let component: Step7ComponentOutput;
+  let fixture: ComponentFixture<Step7ComponentOutput>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Step2PersonTable]
+      imports: [Step7ComponentOutput]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Step2PersonTable);
+    fixture = TestBed.createComponent(Step7ComponentOutput);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
